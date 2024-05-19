@@ -1,0 +1,100 @@
+html{
+  width:100%;
+  height:100%;
+  background-image: url("../images/f320b4a5441cd6df44e59ef89fdcd69c.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+#root {
+  width: 100%;
+  height: auto;
+  margin: 0px;
+  text-align: center;
+} 
+.language{
+   display: grid;
+   grid-template-columns: repeat(11, minmax(10px, auto));
+    grid-template-rows: repeat(3, 50px);
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    margin-bottom: 0px;
+}
+.singleChar{
+  margin: 4px;
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  justify-content: center;
+  text-align: center;
+  border: 1px solid #ccc;
+  background-color:rgb(184, 184, 233);
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgb(71, 63, 64);
+}
+.hidden{
+  display: none;
+}
+.textArea{
+  /* box-shadow: 0 0 40px rgba(0, 0, 0, 0.2); */
+  border-radius: 4px;
+  justify-content: center;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  width:80%;
+  height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 70px;
+  white-space: pre-line;
+  direction: rtl;
+  margin-top: 30px;
+  box-shadow: 0 0 40px rgb(71, 63, 64);
+}
+.disInline{
+  display: inline-block;
+  font-family: monospace;
+}
+.specialKeys{
+  width:70%;
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  grid-template-columns: repeat(10, minmax(10px, auto));
+  grid-template-rows: repeat(1, 50px);
+  margin-top: 3px;
+}
+.specialKey{
+  margin: 4px;
+  /* box-shadow: 0 0 40px rgba(0, 0, 0, 0.2); */
+  border-radius: 4px;
+  justify-content: center;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgb(71, 63, 64);
+}
+.lang{
+  margin:5px;
+  width:100px;
+  height: 50px;
+  border-radius: 4px;
+  justify-content: center;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgb(71, 63, 64);
+}
+.radioBtn{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right:auto ;
+  margin-left: auto;
+  display: flex;
+  align-items: start;
+  flex-wrap: wrap;
+  width: 100px;
+  color: black;
+  font-weight: bold;
+}
